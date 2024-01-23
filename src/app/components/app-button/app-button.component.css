@@ -1,0 +1,35 @@
+button {
+  display: inline-flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(15deg, #351686 -27.95%, #8455ff 139.24%);
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  button {
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(15deg, #351686 -27.95%, #8455ff 139.24%);
+    color: #fff;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+  }
+}

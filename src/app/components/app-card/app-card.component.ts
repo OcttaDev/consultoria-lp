@@ -1,0 +1,14 @@
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-app-card',
+  standalone: true,
+  imports: [],
+  templateUrl: './app-card.component.html',
+  styleUrl: './app-card.component.css',
+})
+export class AppCardComponent {
+  @Input() imagePath!: string;
+  @Input() title!: string;
+  @Input() paragraph!: string;
+}
